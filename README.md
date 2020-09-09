@@ -1,4 +1,4 @@
-### Practice1. Simple poster
+### Practice2. Simple poster2
 
 연습사항
 
@@ -9,6 +9,8 @@
 <img src="imgs/practice2.png"
      alt="Markdown Monster icon"
      style="height: 500px; width:400px; float: left; margin-right: 10px;" />
+
+### Practice1. Simple poster1
 
 연습사항
 
