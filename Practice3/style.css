@@ -1,0 +1,95 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+body {
+    background-color: #dde1d4;
+    padding: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template: "first second" 1fr "third fourth" 1fr/1fr 1fr;
+}
+
+.wrapper div:nth-child(1),
+.wrapper div:nth-child(2),
+.wrapper div:nth-child(3) {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.wrapper div:nth-child(1) {
+    grid-area: first;
+    grid-column: 1/2;
+    color: red;
+    background-color: silver;
+}
+
+.wrapper div:nth-child(2) {
+    grid-area: second;
+    color: white;
+    background-color: teal;
+}
+
+.wrapper div:nth-child(3) {
+    grid-area: third;
+    color: white;
+    background-color: red;
+}
+
+.wrapper div:nth-child(4) {
+    grid-area: fourth;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.inner__wrapper {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template: "inner_first inner_second" 1fr "inner_third inner_fourth" 1fr / 1fr 1fr;
+}
+
+.inner__wrapper div:nth-child(1),
+.inner__wrapper div:nth-child(2),
+.inner__wrapper div:nth-child(3),
+.inner__wrapper div:nth-child(4) {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.inner__wrapper div:nth-child(1) {
+    grid-area: inner_first;
+    color: red;
+    background-color: pink;
+}
+
+.inner__wrapper div:nth-child(2) {
+    grid-area: inner_second;
+    background-color: rebeccapurple;
+}
+
+.inner__wrapper div:nth-child(3) {
+    grid-area: inner_third;
+    color: red;
+    background-color: orange;
+}
+
+.inner__wrapper div:nth-child(4) {
+    grid-area: inner_fourth;
+    color: white;
+    background-color: palevioletred;
+}
