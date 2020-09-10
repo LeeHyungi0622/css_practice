@@ -1,3 +1,14 @@
+### Practice3. Structured simple boxes
+
+연습사항
+
+- 화면의 박스요소들을 배치할때, Grid속성만을 이용해서 배치하도록 한다.
+- grid의 justify-items, align-items의 속성을 이해하고 활용한다.
+
+<img src="imgs/practice3.png"
+     alt="Markdown Monster icon"
+     style="height: 500px; width:400px; float: left; margin-right: 10px;" />
+
 ### Practice2. Simple poster2
 
 연습사항
