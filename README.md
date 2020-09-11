@@ -1,3 +1,14 @@
+### Practice4. minmax and auto-fill&auto-fit
+
+연습사항
+
+- 화면의 박스요소들을 배치할때, Grid의 속성을 이용해서 배치하도록 한다.
+- minmax와 auto-fill 또는 auto-fit을 활용하여 화면에 있는 box들을 배치한다.
+
+<img src="imgs/practice4.png"
+     alt="Markdown Monster icon"
+     style="height: 500px; width:400px; float: left; margin-right: 10px;" />
+
 ### Practice3. Structured simple boxes
 
 연습사항

@@ -1,0 +1,73 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap");
+body {
+    font-family: Rubik;
+    width: 100%;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 30px;
+    text-align: center;
+}
+
+div span {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div span:nth-child(2) {
+    font-size: 15px;
+}
+
+.first__row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-rows: repeat(auto-fit, 500px);
+}
+
+.first__row div:nth-child(1) {
+    background-color: burlywood;
+}
+
+.first__row div:nth-child(3) {
+    background-color: orangered;
+}
+
+.first__row div:nth-child(5) {
+    background-color: grey;
+}
+
+.first__row div:last-child {
+    background-color: greenyellow;
+}
+
+.second__row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-rows: repeat(auto-fit, 500px);
+}
+
+.second__row div:nth-child(1) {
+    background-color: darkred;
+}
+
+.second__row div:nth-child(2) {
+    background-color: lightskyblue;
+}
+
+.second__row div:nth-child(4) {
+    background-color: green;
+}
+
+.second__row div:last-child {
+    background-color: pink;
+}
