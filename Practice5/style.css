@@ -1,0 +1,92 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.text__container {
+    padding: 20px;
+}
+
+.first__column {
+    grid-row: 1/-1;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.first__column__first__row {
+    background-color: black;
+    grid-row: 1/2;
+    color: white;
+}
+
+.first__column__second__row {
+    background-color: red;
+    grid-row: 2/-1;
+}
+
+.first__column__first__row .text__container {
+    display: flex;
+    flex-direction: column;
+    font-size: 5em;
+}
+
+.first__column__second__row .text__container {
+    display: flex;
+    flex-direction: column;
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.first__column__first__row .text__container span:nth-child(1),
+.first__column__first__row .text__container span:nth-child(3) {
+    position: relative;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+.second__column {
+    grid-row: 1/-1;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.second__column__first__row {
+    background-color: purple;
+    grid-row: 1/2;
+}
+
+.second__column__third__row {
+    background-color: yellow;
+    grid-row: 3/4;
+    font-size: 4em;
+}
+
+.third__column {
+    grid-row: 1/-1;
+}
+
+.speakers_list .text__container,
+.artists_list .text__container {
+    font-size: 50px;
+    line-height: 59px;
+    text-align: inherit;
+    font-weight: 500;
+}
+
+.speakers_list li:nth-child(6) span {
+    background-color: lightcoral;
+}
+
+.text__container h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+.fourth__column {
+    grid-row: 1/-1;
+}

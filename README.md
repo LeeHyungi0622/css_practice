@@ -1,3 +1,14 @@
+### Practice5. Structured simple boxes
+
+연습사항
+
+- 화면의 박스요소들을 배치할때, Grid의 속성을 이용해서 배치하도록 한다.
+- grid-row와 grid-column의 속성을 적절히 사용하여 화면의 배치를 한다.
+
+<img src="imgs/practice5.png"
+     alt="Markdown Monster icon"
+     style="height: 500px; width:400px; float: left; margin-right: 10px;" />
+
 ### Practice4. minmax and auto-fill&auto-fit
 
 연습사항
