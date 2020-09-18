@@ -1,3 +1,15 @@
+### Practice8. Event schedule sheet.
+
+연습사항
+
+- 화면의 기본 배치는 Grid와 Flex의 속성을 이용해서 배치하도록 한다.
+- grid-row와 grid-column의 속성을 적절히 사용하여 화면의 배치를 한다.
+- div 태그를 사용하기전에 기본 HTML5 Semantic Tags를 사용한다.
+
+<img src="imgs/practice8.png"
+     alt="Markdown Monster icon"
+     style="height: 500px; width:400px; float: left; margin-right: 10px;" />
+
 ### Practice7. Art gallery works.
 
 연습사항
