@@ -1,3 +1,13 @@
+### Practice9. BALENCIAGA Web Template Frame
+
+연습사항
+
+- 화면의 기본 배치는 Grid와 Flex의 속성을 이용해서 배치하도록 한다.
+
+<img src="imgs/practice9.png"
+     alt="Markdown Monster icon"
+     style="height: 500px; width:400px; float: left; margin-right: 10px;" />
+
 ### Practice8. Event schedule sheet.
 
 연습사항
